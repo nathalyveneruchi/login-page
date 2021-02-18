@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf2ff;
+}
+
+.content{
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.login-img{
+    width: 100%;    
+    margin-left: -150px;
+    margin-right: 300px;
+}
+
+
+.title {
+    color: #407bff;
+    text-align: center;
+    width: 80%;
+}
+
+.form {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form input[type="email"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #407bff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 10px;
+}
+
+label {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+a {
+    font-size: 12px;
+    color: #263238;
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.btn-login {
+    color:#fff;
+    background-color: #407bff;
+    margin-top: 15px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.btn-login:hover {
+    color:#407bff;
+    background-color: #fff;
+    margin-top: 15px;
+    border: 1px solid #407bff;
+    transition: 0.5s;
+}
+
+.btn-google {
+    color:#407bff;
+    background-color: #fff;
+    margin-top: 5px;
+    border: 1px solid #407bff;
+    transition: 0.5s;
+
+}
+
+.btn-google:hover {
+    color:#fff;
+    background-color: #407bff;
+    margin-top: 5px;
+    border:none;
+    transition: 0.5s;
+
+}
+
+.btn-git { 
+    color:#fff;
+    background-color: #263238;
+    margin-top: 5px;
+    border: none;
+    transition: 0.5s;
+
+}
+
+.btn-git:hover { 
+    color:#263238;
+    background-color: #fff;
+    margin-top: 5px;
+    border: 1px solid #263238;
+    transition: 0.5s;
+
+}
+
+.alternative {
+    text-align: center;
+    margin: 1rem;
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+    margin: 1rem;;
+}
+
